@@ -1,0 +1,40 @@
+PREDICATES
+nondeterm anak(symbol,symbol).
+istri(symbol,symbol).
+pria(symbol).
+wanita(symbol).
+usia(symbol,integer).
+nondeterm cucu(symbol,symbol).
+nondeterm ibu(symbol,symbol).
+nondeterm adik(symbol,symbol).
+nondeterm kakek(symbol,symbol).
+
+CLAUSES
+
+anak(jhon,james).
+anak(james,peter).
+anak(sue,ann).
+
+istri(mary,peter).
+istri(ann,james).
+
+pria(jhon).
+pria(james).
+pria(peter).
+
+wanita(marry).
+wanita(sue).
+wanita(ann).
+
+usia(jhon,10).
+usia(sue,13).
+
+ibu(A,B):-anak(B,C),istri(A,C).
+kakek(A,B):-anak(B,C),anak(C,A).
+cucu(A,B):-anak(A,C),anak(C,B).
+adik(A,B):-usia(A,10),usia(B,13).
+GOAL
+%kakek("peter",Siapa).
+cucu(Siapa,"peter"). 
+%adik("jhon",Siapa). %siapa kakaknya jhon?
+%ibu(Siapa,"james"). %siapa ibunya james?

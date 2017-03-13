@@ -1,0 +1,38 @@
+1. A. dian adalah orang
+   B. atoz adalah sebuah mobil
+   C. dian suka mobil atoz
+   D. atoz dijual
+   E. X dapat_membeli Y jika
+	X adalah orang
+	Y adalah mobil
+	X suka Y
+	Y dijual
+   F. ditemukan solusi status Apa saja yg di sukai
+2. A. hobi(ricky,catur).
+   B. Pemalas(Embang).
+   C. Vegetarian(Yusida).
+   D. pandai(kusdiar,gitar).
+   E. mobil(merah,sadek,bmw).
+   F. pemain(awan,piano,pontianak,jawa).
+   G. baik(orang):-
+	punya_sifat(penyanyang,dermawan). 
+   H.pintar(orang):-
+	nilai_tinggi(Matamatika;IPA;IPS).
+   I. setiap(orang,mati).
+3. keyword visual prolog :
+	A. include -> meng-compile isi dari sebuah file yang di include
+			untuk menghemat waktu.
+	B.aritas(ariaty) suatu predikat adalah jumlah argumen yang ada
+			pada predikat tersebut, memperbolehkan kita 
+			mempunyai 2 atau lebih predikat dengan nama 
+			yang sama namun dengan aritas yang berbeda.
+	C.  unifikasi (unification), yang manaberusaha untuk mencocokkan 
+			antara struktur data yang ada di panggilan
+			(subgoal)dengan klausa yang diberikan.
+	D. domain 	mempunyai 2 manfaat utama, yaitu pertama, kita 
+			dapat memberikan nama yang berarti untuk domain,
+			walaupun secara internal domaintersebut sama 
+			tipenya dengan domain yang telah ada; yang kedua,
+			kita dapatmendeklarasi domain khusus yang digunakan
+			untuk mendeklarasikan strukturdata yang tidak 
+			didefinisikan oleh standar domain
