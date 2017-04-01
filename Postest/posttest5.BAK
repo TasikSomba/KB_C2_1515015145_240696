@@ -1,0 +1,20 @@
+domains
+  nama = symbol
+
+predicates
+ nondeterm sahabat(nama,nama)
+  they_are - procedure ()
+
+clauses
+  sahabat(tasik,evi).
+  sahabat(atoel,ise).
+  sahabat(atoel,juni).
+  they_are:-
+	sahabat(A,B),
+	write(A," friend ",B," 's ternyata\n"),
+	fail.
+  they_are.
+
+goal
+  they_are.
+
